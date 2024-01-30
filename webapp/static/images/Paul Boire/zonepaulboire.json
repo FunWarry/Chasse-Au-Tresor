@@ -1,0 +1,95 @@
+{
+    "type": "FeatureCollection",
+    "features":[
+    {
+        "type": "Feature",
+        "properties": {
+            "zone_id": 1,
+            "zone_name": "Zone 1"
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates" : [
+            [
+                [-0.836, 46.785402],
+                [-0.841517, 46.785402],
+                [-0.836, 46.79],
+                [-0.836, 46.785402]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "zone_id": 2,
+                "zone_name": "Zone 2"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates" : [
+                    [
+                        [-0.834261, 46.785402],
+                        [-0.841517, 46.783000],
+                        [-0.834261, 46.783000],
+                        [-0.834261, 46.785402]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "zone_id": 3,
+                "zone_name": "Zone 3"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates" : [
+                    [
+                        [-0.824518, 46.783298],
+                        [-0.824518, 46.773113],
+                        [-0.834, 46.783298],
+                        [-0.824518, 46.783298]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "zone_id": 4,
+                "zone_name": "Zone 4"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates" : [
+                    [
+                        [-0.849480, 46.7781],
+                        [-0.843000, 46.77300],
+                        [-0.843000, 46.7781],
+                        [-0.849480, 46.7781]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "zone_id": 5,
+                "zone_name": "Zone 5"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates" : [
+                    [
+                        [-0.853794,46.782025 ],
+                        [-0.846876, 46.782025],
+                        [-0.853794, 46.774099],
+                        [-0.853794,46.782025 ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

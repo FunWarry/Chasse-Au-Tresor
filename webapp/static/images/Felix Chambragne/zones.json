@@ -1,0 +1,95 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-1.142857, 47.050442],
+                        [-1.150379, 47.045408],
+                        [-1.139851, 47.045371],
+                        [-1.142857, 47.050442]
+                    ]
+                ]
+            },
+            "properties": {
+                "zone_id": 1,
+                "zone_name": "village_perdu"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-1.146829, 47.063112],
+                        [-1.136304, 47.051697],
+                        [-1.121174, 47.060366],
+                        [-1.146829, 47.063112]
+                    ]
+                ]
+            },
+            "properties": {
+                "zone_id": 2,
+                "zone_name": "didier_des_champs"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-0.554758, 47.487943],
+                        [-0.550826, 47.488311],
+                        [-0.551917, 47.486056],
+                        [-0.554758, 47.487943]
+                    ]
+                ]
+            },
+            "properties": {
+                "zone_id": 3,
+                "zone_name": "rustique_corporation"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-0.555686, 47.462100],
+                        [-0.560154, 47.464024],
+                        [-0.554804, 47.465641],
+                        [-0.555686, 47.462100]
+                    ]
+                ]
+            },
+            "properties": {
+                "zone_id": 4,
+                "zone_name": "gare_saint_laud"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-0.898100, 47.073496],
+                        [-0.865431, 47.058411],
+                        [-0.860163, 47.080808],
+                        [-0.898100, 47.073496]
+                    ]
+                ]
+            },
+            "properties": {
+                "zone_id": 5,
+                "zone_name": "chaud_lait"
+            }
+        }
+    ]
+}

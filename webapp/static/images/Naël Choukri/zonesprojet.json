@@ -1,0 +1,100 @@
+{
+  "type": "featurecollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": 1,
+        "zone_name": "sables d'or"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0.181797, 47.995028],
+            [0.180628, 47.992846],
+            [0.188318, 47.990376],
+            [0.185673, 47.994164],
+            [0.181797, 47.995028]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": 2,
+        "zone_name": "gare"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0.189367, 47.996408],
+            [0.189233, 47.994463],
+            [0.195358, 47.994493],
+            [0.192899, 47.996976],
+            [0.189367, 47.996408]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": 3,
+        "zone_name": "Paul Ligneul"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0.191002, 47.996850],
+            [0.192207, 47.997020],
+            [0.191573, 47.999057],
+            [0.190579, 47.997699],
+            [0.191002, 47.996850]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": 4,
+        "zone_name": "Médiathèque"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0.193464, 48.003443],
+            [0.191490, 48.003422],
+            [0.191360, 48.000347],
+            [0.193464, 48.002144],
+            [0.193464, 48.003443]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": 5,
+        "zone_name": "centre_ville"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0.195467, 48.005455],
+            [0.193904, 48.004942],
+            [0.195632, 48.002483],
+            [0.196290, 48.004391],
+            [0.195467, 48.005455]
+          ]
+        ]
+      }
+    }
+  ]
+}

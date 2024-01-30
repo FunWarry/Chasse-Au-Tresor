@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Projet Gevraise Mathéo</title>
+    <link href="../static/CSS.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <h1>Bienvenue sur la chasse au trésor des E2 TI.</h1>
+    <h1>Veuillez choisir quel personne vous souhaitez chercher les trésors:</h1>
+
+    <form method="post">
+        <div class="page">
+            <div class="grid">
+
+                <div class="selection">
+                    <label for="joueurs">Noms du joueur :</label><br>
+                    <select id="joueurs" name="joueurs" class="select_name">
+                        {% for i in range(0,nmbr_joueurs) %}
+                            <option value={{new_value[i]}} {% if nom_personnes[i] == element %} selected {% endif %} > {{nom_personnes[i]}} </option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="texte_switch">
+                    Désactiver les zones :
+                    <label class="switch">
+                        <input type="checkbox" name="affichage_zone" value="True" />
+                        <span></span>
+                    </label>
+                </div>
+
+                <input class="button" type="submit" value="Valider!" id="Bouton1">
+
+                <a class="button" href="{{ url_for('tresor',element_selection=element) }}" id="Bouton2" type="submit">Trésor trouvé !</a>
+
+                <h2>Vous pouvez cliquer sur les zones pour avoir leurs noms, ainsi que sur les pointeurs pour avoir les informations du trésor.</h2>
+
+            </div>
+
+            <div id="map" class="map">
+                {{ map|safe }}
+            </div>
+
+            <br>
+
+        </div>
+
+        <div>
+            <h2>Pour les trajets, vous devez partir de la fleche jaune et aller jusqu'au rond rouge pour que les fleches vous indique la bonne direction</h2>
+        </div>
+
+    </form>
+</body>

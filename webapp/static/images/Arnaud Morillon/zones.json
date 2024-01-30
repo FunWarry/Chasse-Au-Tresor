@@ -1,0 +1,95 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "zone_id": 1,
+                "zone_name": "pond-roint"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-0.564193,47.478676],
+                        [-0.563915,47.480927],
+                        [-0.566156,47.479598],
+                        [-0.564193,47.478676]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "zone_id": 2,
+                "zone_name": "bataille un arbre"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-0.563993,47.480976],
+                        [-0.563715,47.483227],
+                        [-0.565956,47.481898],
+                        [-0.563993,47.480976]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "zone_id": 3,
+                "zone_name": "Lazare martiaux"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-0.566273,47.480226],
+                        [-0.565995,47.482477],
+                        [-0.568236,47.481148],
+                        [-0.566273,47.480226]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "zone_id": 4,
+                "zone_name": "la bicoque"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-0.564193,47.483176],
+                        [-0.563915,47.485427],
+                        [-0.566156,47.484098],
+                        [-0.564193,47.483176]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "zone_id": 5,
+                "zone_name": "beau pépin"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-0.566593,47.483076],
+                        [-0.566315,47.485327],
+                        [-0.568556,47.483998],
+                        [-0.566593,47.483076]
+                    ]
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Projet Gevraise Mathéo</title>
+    <link href="../static/CSS.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <h1>Bienvenue sur la chasse au trésor des E2 TI.</h1>
+    <h1>Veuillez choisir quel trésor vous avez trouvé:</h1>
+
+    <form method="post">
+        <div class="page">
+            <div class="grid">
+                <div class="selection">
+                    <label for="immages">Immages :</label><br>
+                    <select id="immages" name="select_immages" class="select_immages">
+                        {% for i in range(0, 5) %}
+                        <option value="valeurs_{{i}}"> Trésor {{image_name[i] + 1}}, Zone : {{zone_name[i]}} </option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <input class="button" type="submit" value="Valider!" id="Bouton1">
+
+                <a class="button"  href="{{ url_for('home') }}" id="Bouton2" type="button">Retourné à l'accueil !</a>
+
+            </div>
+
+            <div id="map" class="map">
+                {{ map|safe }}
+            </div>
+
+        </div>
+    </form>
+</body>
